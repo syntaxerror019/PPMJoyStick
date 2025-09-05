@@ -1,16 +1,14 @@
-PMJoyStick is an ultra-simple, highly-configurable virtual joystick interface for flight simulators.
+PPMJoyStick is an ultra-simple, highly-configurable virtual joystick interface for flight simulators.
 
-this software is intended for use with fpv radio controllers and simulators, however it can be configured and tuned to aviation simulators.
+This software is intended for use with fpv radio controllers and simulators, however it can be configured and tuned to aviation simulators.
 
 
-* supports ppm input via audio jack or sound card
+* Supports PPM input via audio jack or sound card
 
-* maps radio channels to virtual joystick axes and switche
+* Maps radio channels to virtual joystick axes and switches
 
-* real-time plotting for debugging and calibration
+* Real-time plotting for debugging and calibration
 
-* customizable channel assignments and ranges
+* Customizable channel assignments and ranges
 
-* optional desktop notifications for connection status
-
-* lightweight, no special drivers needed
+* Lightweight script
