@@ -2,4 +2,5 @@ numpy
 sounddevice
 pyqtgraph
 pyvjoy
+scipy
 plyer
