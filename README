@@ -12,3 +12,9 @@ This software is intended for use with fpv radio controllers and simulators, how
 * Customizable channel assignments and ranges
 
 * Lightweight script
+
+
+Flags:
+
+--debug : Show the oscilloscope response
+--raw : Print the raw frames and mapped values
