@@ -1,14 +1,11 @@
-####################################
-# PPMJoystick
-# v2.0 2025 Miles Hilliard
-# www.mileshilliard.com
-####################################
-
 import pyvjoy
 
 class FPVJoystick:
     def __init__(self, device_id=1):
-        self.j = pyvjoy.VJoyDevice(device_id)
+        try:
+            self.j = pyvjoy.VJoyDevice(device_id)
+        except pyvjoy.vJoyException as e:
+            raise RuntimeError(f"Failed to initialize vJoy device {device_id}: {e}")
 
     @staticmethod
     def _scale(value):

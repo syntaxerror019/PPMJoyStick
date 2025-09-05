@@ -56,7 +56,9 @@ GRACE_PERIOD = 80 # minimumm samples/frame
 # 3 - Low-pass Filter (Butterworth)
 # 4 - Low-pass Filter (Chebyshev)
 # 5 - Savitzky–Golay Filter (Not ideal)
-FILTER_TYPE = 0
+# TODO: Implement better filtering options and abilities
+FILTER_TYPE = 2
+
 
 # Plot settings are trivial.
 # Only work with these when using the
@@ -73,3 +75,6 @@ SAMPLE_RATE = 44100
 BLOCK_SIZE = 2048
 
 INIT_SAMPLE_PASS = 20
+
+# Disable all dekstop/toast notifications
+DISABLE_NOTIFICATIONS = False
